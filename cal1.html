@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>Calculator</title>
+    <link type="text/css" href="style.css" rel="stylesheet" />
+    <script src="sketch.js"></script>
+  </head>
+
+  <body>
+    <div id="mainbody">
+      <div>
+        <input type="text" id="screen" />
+      </div>
+      <div class="but">
+        <div class="row">
+          <button onelick="clrdisp()">C</button>
+        </div>
+        <div class="row">
+          <button onelick="clk(7)">7</button>
+          <button onelick="clk(8)">8</button>
+          <button onelick="clk(9)">9</button>
+          <button onelick="clk('/')">/</button>
+        </div>
+        <div class="row">
+          <button onelick="clk(4)">4</button>
+          <button onelick="clk(5)">5</button>
+          <button onelick="clk(6)">6</button>
+          <button onelick="clk('*')">X</button>
+        </div>
+        <div class="row">
+          <button onelick="clk(1)">1</button>
+          <button onelick="clk(2)">2</button>
+          <button onelick="clk(3)">3</button>
+          <button onelick="clk('-')">-</button>
+        </div>
+        <div class="row">
+          <button onelick="clk(0)">0</button>
+          <button onelick="clk('.')">.</button>
+          <button onelick="eql('=')">=</button>
+          <button onelick="clk('+')">+</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
